@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Message for You</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        .fade-in { animation: fadeIn 1.5s ease-out forwards; }
+    </style>
+</head>
+<body class="bg-rose-50 flex items-center justify-center min-h-screen p-6">
+
+    <div class="max-w-md w-full bg-white p-8 rounded-2xl shadow-xl border border-rose-100 text-center fade-in">
+        <h1 class="text-3xl font-serif text-rose-600 mb-6 italic">To My Favorite Person</h1>
+        
+        <p class="text-gray-700 leading-relaxed mb-8 font-light text-lg">
+            "My Punkiie,
+
+I’ve been sitting here trying to find the right words to capture everything I’m feeling, but the truth is that a simple letter feels far too small to hold it all. They say that absence makes the heart grow fonder, but I think it actually makes the heart more resilient. It forces us to cherish the sound of a voice, the comfort of a message, and the shared dreams that keep us moving forward even when we are worlds apart.
+
+Being away from you has given me a lot of time to reflect on what we have. It’s not just about the big milestones or the easy days; it’s about the quiet strength of our connection. Even when life gets busy and the days feel long, you are the peace I look forward to at the end of it all. You are my greatest support and my favorite person to share a laugh with, and not a single day goes by where I don’t feel immensely grateful that our paths crossed.
+
+I often find myself replaying our memories like a favorite movie, holding onto the warmth of your presence to get me through the colder stretches of time. Whether it’s the way you understand me without me having to say a word, or the way you challenge me to be the best version of myself, you have become a part of my identity in the most beautiful way possible.
+
+Distance is just a temporary hurdle in the grand story we are writing together. It’s a test of patience, sure, but it’s also a testament to how much we truly mean to each other. No matter how many miles lie between us or how different our surroundings are right now, my heart remains exactly where it belongs..with you.
+
+I’m counting down the days until "see you soon" finally becomes "it’s good to have you back." Until then, keep dreaming big, stay safe, and never forget how deeply you are loved and missed.
+
+With all my love,
+
+Your Punka"
+        </p>
+
+        <!-- Music Section -->
+        <div class="mt-6 p-4 bg-rose-100 rounded-lg">
+            <p class="text-xs uppercase tracking-widest text-rose-500 mb-2 font-bold">Our Song</p>
+            <audio id="bg-music" controls class="w-full h-8 opacity-80">
+                <source src="Naledi Aphiwe, Mawelele - Romeo & Juliet (Lyrics)MP3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <div class="mt-8 text-rose-400 text-2xl">❤️</div>
+    </div>
+
+</body>
+</html>
